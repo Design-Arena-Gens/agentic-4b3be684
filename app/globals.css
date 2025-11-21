@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.card {
+  @apply rounded-xl border shadow-sm bg-white;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-lg px-4 py-2 text-sm font-medium transition-colors;
+}
+.btn-primary {
+  @apply bg-brand-600 text-white hover:bg-brand-700 active:bg-brand-800;
+}
+.btn-secondary {
+  @apply bg-slate-100 hover:bg-slate-200 text-slate-900;
+}
+
+code.kbd {
+  @apply rounded border px-1.5 py-0.5 text-xs bg-slate-50;
+}
+
